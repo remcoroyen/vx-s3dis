@@ -1,5 +1,7 @@
 VX-S3DIS release (Fall 2024)
 
+The **VX-S3DIS** dataset can be downloaded on [HuggingFace](https://huggingface.co/datasets/RemcoRoyen/VX-S3DIS).
+
 The VX-S3DIS data is released in 2 zip-files. 'camera_view.zip' represents the dataset centered to the camera axis. 'global_view.zip' represents the global view of the scene where the points have their actual position in the 3D scene. The filename displays the underlying S3DIS room identifier.
 The datasets consist of ply-files of the scenes. Important to note is that the order of the points reflect the order in which they were captured by the resolution scalable sensor, here the VoxelSensor Andromeda Simulator.
 
